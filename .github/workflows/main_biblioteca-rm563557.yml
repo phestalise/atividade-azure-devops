@@ -52,4 +52,4 @@ jobs:
           app-name: 'biblioteca-rm563557'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_763D44D798684971BC477119AB656C5D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F89D0DE49F414FFF9A9F34B859F6509F }}
