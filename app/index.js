@@ -37,7 +37,7 @@ app.get('/', (req, res) => {
     res.send('<h1>Atividade DevOps - Azure CI/CD e App Insights!</h1><p>Deploy realizado com sucesso.</p><p><a href="/tema">Ver dados do Banco</a></p>');
 });
 
-app.get('/tema', async (req, res) => {
+app.get('/biblioteca', async (req, res) => {
     try {
         // ALUNOS: Usem a configuração dbConfig para conectar no banco e fazer o SELECT na tabela do tema escolhido!
         await sql.connect(dbConfig);
