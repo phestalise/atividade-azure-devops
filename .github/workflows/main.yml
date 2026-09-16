@@ -51,6 +51,6 @@ jobs:
         uses: azure/webapps-deploy@v3
         id: deploy-to-webapp
         with:
-          app-name: '<nome-do-seu-webapp>'
+          app-name: 'biblioteca-rm563557'
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
           package: ./app
